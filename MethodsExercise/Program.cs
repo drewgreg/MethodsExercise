@@ -16,6 +16,9 @@
 
             Console.WriteLine($"{userName}, what is your favorite band?");
             var band = Console.ReadLine();
+
+            Console.WriteLine($"{userName}'s favorite color is {color}, " +
+                $"favorite animal is a {animal}, and favorite band is {band}.");
         }
     }
 }
